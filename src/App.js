@@ -5,7 +5,7 @@ function App() {
         <div className='App'>
             <header>
                 <div class="user">
-                    <img src="images/photo1.jpg" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + '/images/photo1.jpg'} alt="Awais Ansari's profile" />
                     <h3 class="name">Awais Ansari</h3>
                     <p class="post">Computer Engineer</p>
                 </div>
@@ -126,25 +126,25 @@ function App() {
                 <h1 class="heading"> my <span>portfolio</span> </h1>
                 <div class="box-container">
                     <div class="box">
-                        <img src="/images/img1.jpg" alt=""></img>
+                      <img src={process.env.PUBLIC_URL + '/images/img1.jpg'} alt="Portfolio Item 1" />
                     </div>
                     <div class="box">
-                        <img src="/images/img2.jpg" alt=""></img>
+                      <img src={process.env.PUBLIC_URL + '/images/img2.jpg'} alt="Portfolio Item 1" />
                     </div>
                     <div class="box">
-                        <img src="/images/img3.jpg" alt=""></img>
-                    </div>
-
-                    <div class="box">
-                        <img src="images/img4.jpg" alt=""></img>
+                      <img src={process.env.PUBLIC_URL + '/images/img3.jpg'} alt="Portfolio Item 1" />
                     </div>
 
                     <div class="box">
-                        <img src="/images/img5.jpg" alt=""></img>
+                      <img src={process.env.PUBLIC_URL + '/images/img4.jpg'} alt="Portfolio Item 1" />
                     </div>
 
                     <div class="box">
-                        <img src="/images/img6.jpg" alt=""></img>
+                      <img src={process.env.PUBLIC_URL + '/images/img5.jpg'} alt="Portfolio Item 1" />
+                    </div>
+
+                    <div class="box">
+                      <img src={process.env.PUBLIC_URL + '/images/img6.jpg'} alt="Portfolio Item 1" />
                     </div>
                 </div>
             </section>
